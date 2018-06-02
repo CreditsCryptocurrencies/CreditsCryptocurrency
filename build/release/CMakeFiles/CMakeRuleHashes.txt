@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+b38dc2f4f81828daadbc22dcc6663022 CMakeFiles/version
+9666f29c74eaa18d8b88e8d66b5d680e external/CMakeFiles/rocksdb
+591cf6123e8315bc424ae15c02838c9e tests/CMakeFiles/tests

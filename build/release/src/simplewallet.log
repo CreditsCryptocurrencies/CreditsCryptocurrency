@@ -1,0 +1,116 @@
+2018-Jun-01 20:00:04.026250 INFO    [simplewallet] forknote wallet v2.1.2.1251 (0a686c8)
+2018-Jun-01 20:00:10.519719 ERROR   [simplewallet] Error: wallet failed to connect to daemon (http://localhost:8081).
+2018-Jun-01 20:00:10.545222 INFO    [simplewallet] Generated new wallet: cxtRib8MKZQW2GPYEixMiUUS7aJKsy9LTEXvuTLbKNVPUb6gkvF9iiBbQEtjfmQd1SKpJRkPhSdTadpaekxK2uEk147PhBiui
+2018-Jun-01 20:00:10.545222 INFO    [simplewallet] view key: 4e131b268e42f5776c2ec2a5576f92922e5c4da5e7a195e3a662840e39979300
+2018-Jun-01 20:00:10.545305 INFO    [simplewallet] **********************************************************************
+Your wallet has been generated.
+Use "help" command to see the list of available commands.
+Always use "exit" command when closing simplewallet to save
+current session's state. Otherwise, you will possibly need to synchronize 
+your wallet again. Your wallet key is NOT under risk anyway.
+**********************************************************************
+2018-Jun-01 20:00:13.817662 INFO    [simplewallet] available balance: 0.00000000, locked amount: 0.00000000
+2018-Jun-01 20:00:29.603929 INFO    [simplewallet] Wallet closed
+2018-Jun-01 20:03:00.800720 INFO    [simplewallet] forknote wallet v2.1.2.1251 (0a686c8)
+2018-Jun-01 20:03:14.968567 INFO    [simplewallet] Loading wallet...
+2018-Jun-01 20:03:15.084588 INFO    [simplewallet] Opened wallet: cxtRib8MKZQW2GPYEixMiUUS7aJKsy9LTEXvuTLbKNVPUb6gkvF9iiBbQEtjfmQd1SKpJRkPhSdTadpaekxK2uEk147PhBiui
+2018-Jun-01 20:03:15.084913 INFO    [simplewallet] **********************************************************************
+Use "help" command to see the list of available commands.
+**********************************************************************
+2018-Jun-01 20:03:15.172703 INFO    [simplewallet] Height 1, transaction 74397b21538febe5e2b5a0392f5b80af0a888c05bf98a2d146b56feadaf4af68, received 47683.38027599
+2018-Jun-01 20:03:15.172938 INFO    [simplewallet] Height 2, transaction 0918db2959eb70a20ddb8d52fcab3ac0b2156ddcb637ec801b2d3d294e38d30b, received 47683.35753878
+2018-Jun-01 20:03:15.173098 INFO    [simplewallet] Height 3, transaction f602e071215ea389b57cdd35389bf069a7cf372773bd10c28b53fc19f21b1d8e, received 47683.33480158
+2018-Jun-01 20:03:17.746717 INFO    [simplewallet] available balance: 0.00000000, locked amount: 143050.07261635
+2018-Jun-01 20:05:05.607280 INFO    [simplewallet] available balance: 0.00000000, locked amount: 143050.07261635
+2018-Jun-01 20:05:12.251212 INFO    [simplewallet] Wallet closed
+2018-Jun-01 20:08:47.434249 INFO    [simplewallet] forknote wallet v2.1.2.1251 (0a686c8)
+2018-Jun-01 20:08:52.394475 INFO    [simplewallet] Loading wallet...
+2018-Jun-01 20:08:52.420411 INFO    [simplewallet] Opened wallet: cxtRib8MKZQW2GPYEixMiUUS7aJKsy9LTEXvuTLbKNVPUb6gkvF9iiBbQEtjfmQd1SKpJRkPhSdTadpaekxK2uEk147PhBiui
+2018-Jun-01 20:08:52.420475 INFO    [simplewallet] **********************************************************************
+Use "help" command to see the list of available commands.
+**********************************************************************
+2018-Jun-01 20:09:26.913989 ERROR   [simplewallet] Error: wallet failed to connect to daemon (http://localhost:8081).
+2018-Jun-01 20:09:37.402887 INFO    [simplewallet] Wallet connected to daemon.
+2018-Jun-01 20:09:45.156142 INFO    [simplewallet] available balance: 0.00000000, locked amount: 143050.07261635
+2018-Jun-01 20:09:52.481649 INFO    [simplewallet] Height 1, transaction ef9fdccc153b929230210dba95286d79f40c6baa202600c2257c593315510b0c, received 47683.38027599
+2018-Jun-01 20:09:52.481868 INFO    [simplewallet] Height 2, transaction 4423be2470e95da675efea6c93fbf221110492d34fa0926c859552382c2d9f91, received 47683.35753878
+2018-Jun-01 20:09:52.482018 INFO    [simplewallet] Height 3, transaction e8715bc9a1cd7aaa5dee4154fb6c3a785e293a4afc839d2356a248317b1b2a1e, received 47683.33480158
+2018-Jun-01 20:09:54.211737 INFO    [simplewallet] available balance: 0.00000000, locked amount: 143050.07261635
+2018-Jun-01 20:09:58.355718 INFO    [simplewallet] available balance: 0.00000000, locked amount: 143050.07261635
+2018-Jun-01 20:12:23.346375 INFO    [simplewallet] available balance: 0.00000000, locked amount: 143050.07261635
+2018-Jun-01 20:12:24.261803 INFO    [simplewallet] Commands: 
+  address              Show current wallet public address
+  balance              Show current wallet balance
+  bc_height            Show blockchain height
+  exit                 Close wallet
+  export_keys          Show the secret keys of the openned wallet
+  help                 Show this help
+  incoming_transfers   Show incoming transfers
+  list_transfers       Show all known transfers
+  payments             payments <payment_id_1> [<payment_id_2> ... <payment_id_N>] - Show payments <payment_id_1>, ... <payment_id_N>
+  reset                Discard cache data and start synchronizing from the start
+  save                 Save wallet synchronized data
+  set_log              set_log <level> - Change current log level, <level> is a number 0-4
+  transfer             transfer <mixin_count> <addr_1> <amount_1> [<addr_2> <amount_2> ... <addr_N> <amount_N>] [-p payment_id] [-f fee] - Transfer <amount_1>,... <amount_N> to <address_1>,... <address_N>, respectively. <mixin_count> is the number of transactions yours is indistinguishable from (from 0 to maximum available)
+  
+
+2018-Jun-01 20:12:26.609781 INFO    [simplewallet] 3
+2018-Jun-01 20:12:36.024721 INFO    [simplewallet] Wallet closed
+2018-Jun-01 20:14:36.880451 INFO    [simplewallet] forknote wallet v2.1.2.1251 (0a686c8)
+2018-Jun-01 20:14:41.618319 INFO    [simplewallet] Generated new wallet: cxtgase4J4ib6twPBscVtLJGMBbxM1H2yfRj6PVGJYuXMcJdGHyf4Lt6XGFcSjgGL1cduuFJdjeMdUoCaKFqWrdU1riz1pwDC
+2018-Jun-01 20:14:41.618319 INFO    [simplewallet] view key: 89cf7009c74c064c3921922c060807dc4692e0c3e2d81797ca9ab3f2b7009c0d
+2018-Jun-01 20:14:41.618412 INFO    [simplewallet] **********************************************************************
+Your wallet has been generated.
+Use "help" command to see the list of available commands.
+Always use "exit" command when closing simplewallet to save
+current session's state. Otherwise, you will possibly need to synchronize 
+your wallet again. Your wallet key is NOT under risk anyway.
+**********************************************************************
+2018-Jun-01 20:14:43.702507 INFO    [simplewallet] Commands: 
+  address              Show current wallet public address
+  balance              Show current wallet balance
+  bc_height            Show blockchain height
+  exit                 Close wallet
+  export_keys          Show the secret keys of the openned wallet
+  help                 Show this help
+  incoming_transfers   Show incoming transfers
+  list_transfers       Show all known transfers
+  payments             payments <payment_id_1> [<payment_id_2> ... <payment_id_N>] - Show payments <payment_id_1>, ... <payment_id_N>
+  reset                Discard cache data and start synchronizing from the start
+  save                 Save wallet synchronized data
+  set_log              set_log <level> - Change current log level, <level> is a number 0-4
+  transfer             transfer <mixin_count> <addr_1> <amount_1> [<addr_2> <amount_2> ... <addr_N> <amount_N>] [-p payment_id] [-f fee] - Transfer <amount_1>,... <amount_N> to <address_1>,... <address_N>, respectively. <mixin_count> is the number of transactions yours is indistinguishable from (from 0 to maximum available)
+  
+
+2018-Jun-01 20:14:51.857158 INFO    [simplewallet] Wallet closed
+2018-Jun-01 20:14:58.215378 INFO    [simplewallet] forknote wallet v2.1.2.1251 (0a686c8)
+2018-Jun-01 20:15:03.290404 INFO    [simplewallet] Loading wallet...
+2018-Jun-01 20:15:03.315847 INFO    [simplewallet] Opened wallet: cxtgase4J4ib6twPBscVtLJGMBbxM1H2yfRj6PVGJYuXMcJdGHyf4Lt6XGFcSjgGL1cduuFJdjeMdUoCaKFqWrdU1riz1pwDC
+2018-Jun-01 20:15:03.315909 INFO    [simplewallet] **********************************************************************
+Use "help" command to see the list of available commands.
+**********************************************************************
+2018-Jun-01 20:15:14.626259 ERROR   [simplewallet] Error: wallet failed to connect to daemon (http://localhost:8081).
+2018-Jun-01 20:16:10.355968 INFO    [simplewallet] Wallet closed
+2018-Jun-01 20:17:02.085004 INFO    [simplewallet] forknote wallet v2.1.2.1251 (0a686c8)
+2018-Jun-01 20:17:06.722791 INFO    [simplewallet] Loading wallet...
+2018-Jun-01 20:17:06.748391 INFO    [simplewallet] Opened wallet: cxtgase4J4ib6twPBscVtLJGMBbxM1H2yfRj6PVGJYuXMcJdGHyf4Lt6XGFcSjgGL1cduuFJdjeMdUoCaKFqWrdU1riz1pwDC
+2018-Jun-01 20:17:06.748447 INFO    [simplewallet] **********************************************************************
+Use "help" command to see the list of available commands.
+**********************************************************************
+2018-Jun-01 20:17:44.080640 INFO    [simplewallet] Height 0, transaction 543a0d6b5a4a741694a08757eafa52dc517afb0124c93d1c2ec3c6d2c2b665af, received 45000000000.00000000
+2018-Jun-01 20:17:44.080779 INFO    [simplewallet] Height 1, transaction 60cc83e8d1be72b9e9f9006c626da768395c201196d469564084acaa0c50fe14, received 26226.04370117
+2018-Jun-01 20:17:44.252723 INFO    [simplewallet] Height 2, transaction bb03de4b9715f4e18f6fdc742043894fb4623d7e7549e2e892f80786764c46c8, received 26226.03119561
+2018-Jun-01 20:17:45.009491 INFO    [simplewallet] Height 3, transaction 42bad055a6166e3c2ea61cbcbce9271453682d22bb913a501cbbc939055e01d4, received 26226.01869007
+2018-Jun-01 20:17:51.578539 INFO    [simplewallet] available balance: 0.00000000, locked amount: 45000078678.09358685
+2018-Jun-01 20:21:46.881316 INFO    [simplewallet] Height 4, transaction e1a617ba7a0e6f65bf7483ecacdf708d02020daf442066d928c9ea3a2d54fe5c, received 26226.00618453
+2018-Jun-01 20:25:15.006669 INFO    [simplewallet] available balance: 0.00000000, locked amount: 45000104904.09977138
+2018-Jun-01 20:25:17.132705 INFO    [simplewallet] available balance: 0.00000000, locked amount: 45000104904.09977138
+2018-Jun-01 20:25:18.705684 INFO    [simplewallet] available balance: 0.00000000, locked amount: 45000104904.09977138
+2018-Jun-01 20:25:20.680773 INFO    [simplewallet] available balance: 0.00000000, locked amount: 45000104904.09977138
+2018-Jun-01 20:25:27.154652 INFO    [simplewallet] available balance: 0.00000000, locked amount: 45000104904.09977138
+2018-Jun-01 20:32:22.008670 INFO    [simplewallet] Height 5, transaction 505432518c97a0d380e9502e27792e83482976bce1d45196a26881c70f55bf4d, received 26225.99367899
+2018-Jun-01 20:36:03.801556 INFO    [simplewallet] available balance: 0.00000000, locked amount: 45000131130.09345037
+2018-Jun-01 22:26:22.424275 INFO    [simplewallet] available balance: 0.00000000, locked amount: 45000131130.09345037
+2018-Jun-01 22:26:24.375960 INFO    [simplewallet] available balance: 0.00000000, locked amount: 45000131130.09345037
+2018-Jun-01 22:35:52.907981 INFO    [simplewallet] available balance: 0.00000000, locked amount: 45000131130.09345037
+2018-Jun-01 22:35:54.758535 INFO    [simplewallet] available balance: 0.00000000, locked amount: 45000131130.09345037
